@@ -1,0 +1,1627 @@
+/*
+ Theme Name:     Goodwork Child-new
+ Theme URI:      http://demo.krownthemes.com/goodwork/
+ Description:    A basic child theme for the Goodwork theme.
+ Author:         RubenBristian
+ Author URI:     http://rubenbristian.com
+ Template:       goodwork
+ Version:        1.0
+*/
+
+@import url("../goodwork/style.css");
+
+/* --------------------------------------
+-----   Theme customization starts here   -----
+------------------------------------------*/
+
+/* --------------------------------------
+-----   Modifications for theme: made November, 2014 - Peter & Mads, DELTA   -----
+------------------------------------------*/
+
+/* Removing theme search arrow. */
+#searchform .krown-icon-search {
+display: none;
+}
+
+.sidebar .widget-title, .cwidget .widget-title {
+border-bottom: 4px solid #000000;
+text-align: center;
+border-top: 1px solid #000000;
+}
+
+.sidebar .widget-title h4, .cwidget .widget-title h4 {
+color: #000000;
+font-size: 11px;
+padding: 10px 0 8px;
+display: inline-block;
+font-size: 14px;
+line-height: 22px;
+margin-top: 1px;
+text-transform: none;
+}
+
+.no-touch .tone #items a:hover h3, .tone #items a.iehover h3 {
+color: #ce1141;
+}
+
+/* Adding black border on hover Events */
+.tone #items .caption {
+border-bottom: 1px solid black !important;
+}
+
+
+/* Removing hover effect over images */
+.fancybox-thumb:hover span {
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+filter: alpha(opacity=100);
+opacity: 0;
+}
+
+
+/* Editing footer for theme*/
+#footer1 .widget-title h5 {
+color: #ffffff;
+border-bottom: 1px solid #ffffff;
+width: 100%;
+font-size: 14px !important;
+text-transform: none;
+margin-bottom: 10px;
+}
+
+#footer1 .widget-title {
+border-bottom: 0;
+}
+
+
+/* --------------------------------------
+-----   Modifications for Visual Composer, November, 2014 @ PSO & MSH   -----
+------------------------------------------*/
+
+section.rbBox.clearfix.dark.autop {
+margin-top: -15px;
+}
+
+
+
+/* Adding auto to top in Visual Composer */
+.wpb_wrapper h4 {
+margin-top: 0px;
+}
+
+
+/* --------------------------------------
+-----   Adding 20 margin bottom for titles in Visual COmposer.    -----
+------------------------------------------*/
+
+#content > section, #content > div, #content > blockquote, #content > article, #content > article, #content > .title {
+margin-bottom: 20px !important;
+}
+
+
+
+
+/* --------------------------------------
+----- 1.x - Editing BLog Template.   -----
+------------------------------------------*/
+
+
+li.type {
+display: none !important;
+}
+
+li.comments {
+display: none !important;
+}
+
+.classic .pTitle h2 {
+font-size: 20px;
+}
+
+/*h1, h2, h3, h4, h5, h6 {
+color: #000000 !important;
+}*/
+
+
+
+
+/* --------------------------------------
+----- 1. x  - Header functions - custom made CSS for functions   -----
+------------------------------------------*/
+
+i.krown-icon-home {
+display: none;
+}
+
+
+
+/* --------------------------------------
+----- 1. x  - Header functions - custom made CSS for functions   -----
+------------------------------------------*/
+
+.case1-linje{
+	height: 140px;
+}
+
+
+.case2-linje{
+	height: 200px;
+}
+
+
+.case3-linje{
+	height: 400px;
+}
+
+
+
+
+
+
+
+#multix {position:absolute !important;}
+#multix a {font-size:12px;padding:0 12px !important;color:#bbb !important;}
+#multix .active a {background: url('../../uploads/topbar-indicator.png') bottom center no-repeat;color:#fff !important;}
+#multix ul ul a {padding:10px 15px !important;background:#000;}
+#multix a:hover {color:#fff !important;}
+.multix_dark_gray {background:#000 !important;}
+
+/* Dropdown Styling */
+div.dropdown {padding:10px 0;width:100px;position:absolute;cursor:pointer;}
+div.dropdown span {border-bottom:1px solid #000;width:100%;display:block;padding-bottom:10px;}
+div.dropdown > ul { display:none;padding:5px 0;}
+div.dropdown > ul li a {color:#fff;}
+div.dropdown:hover > ul {display:block;background:#000;}
+div.dropdown:hover > ul > li {padding:5px 15px;}
+div.dropdown:hover > ul > li:hover {}
+div.dropdown:hover > ul > li:hover > a {color:#cc1141;}
+
+.row-fluid .grey {background:#dadad9;padding:10px 20px 1px;}
+
+/* Sticky Tab Styles */
+@media only screen and (max-width: 800px) {
+.sticklr {display: none;}
+}
+@media all and (max-width: 940px) {
+  #menu {position:relative;border-top:none !important;}
+}
+
+/* General Styles */
+#searchform .icon-search, .classic .meta li.type, .classic .meta li..no-touch a:hover, .no-touch #menu a:hover, .no-touch #pageTitle a:hover, .no-touch.csstransitions .tone #items a:hover h3, .tone #items a.iehover h3, .no-touch .classic .pTitle h2:hover, .no-touch .classic .meta a:hover, .no-touch #comments-title:hover, .no-touch #comments-title:hover:before, .no-touch .comment-reply-link:hover:before, .await, #comment-status p, .no-touch .rbAccordion.small > section h4:hover, .no-touch .rbAccordion.small > section h4:hover:before, .no-touch .rbAccordion.large h4:hover, .no-touch .rbContactInfo ul li a:hover:before, .no-touch .rbContactInfo ul li a:hover, .errorMessage, .no-touch .rbCustomPosts a:hover h4, .no-touch .rbCustomPosts a:hover .comments i:before, .no-touch .rbPosts.classic header:hover h3, .no-touch .rbTextIcon > a:hover > h4, .no-touch .rbTextIcon.minimal > a:hover > i, .no-touch .rbTwitter li a:hover, .no-touch .rbTwitter .time:hover, .no-touch .rbTwitter > a:hover span, .no-touch .rbSocial.list li:hover:before, .no-touch .rbSocial.list li:hover a, .no-touch .rbSocial.icons li:hover:before, .no-touch .rbTabs .titles li a:hover, .no-touch .widget.email a:hover i, .no-touch .widget.phone a:hover i, .no-touch .widget_meta ul li a:hover:before, .no-touch .widget_meta ul li a:hover, .no-touch .widget_pages ul li a:hover, .no-touch .widget_categories ul li a:hover, .no-touch .widget_archive ul li a:hover, .no-touch .widget_recent_entries ul li a:hover, .no-touch .widget_recent_comments ul li a:hover, .no-touch .widget_rss ul li a:hover, #breadcrumb a:hover, #breadcrumb .icon-home:hover, .no-touch #menu > ul > li:hover > a, .no-touch .rbButton.light:hover, .woocommerce-pagination .next:hover, .woocommerce-pagination .prev:hover, p.out-of-stock, .tp-caption.button_light > a:hover, .id-level-title, .progress-percentage, .no-touch.csstransitions ul.products li:hover h3, .ul.products li.iehover h3 {
+color: #FF0041;
+}comments {display:none;}
+
+a {color:#000;}
+
+p, ul, ol {margin-top:0px;margin-bottom:15px;}
+
+#content p a {text-decoration:underline;font-style:italic;}
+
+#content .list ul {list-style-type:disc;margin-left:15px;}
+
+#content .list-links p a {font-style:normal;text-decoration:none;}
+
+input[type="submit"] {background-color:#000;}
+
+#menu {border-bottom: 1px solid #000;border-top:1px solid #000;height:40px;}
+
+#menu > ul li.selected > a, .no-touch #menu > ul li.selected:hover > a {border-bottom:4px solid #000;color:#000;}
+
+.no-touch #menu > ul > li:hover > a {border-bottom:4px solid #000;}
+#menu > ul > li > a {color:#000;height:39px;padding:10px 22px;font-family:"Georgia";font-size:12px;text-transform:none;}
+
+#pageTitle h1, .sectionTitle h3 {color:#000;font-family:"Georgia", 'Times New Roman', Times, serif;}
+#pageTitle h1 {font-size:30px;}
+.sectionTitle h3 {font-size:16px;text-transform:none;padding-bottom:2px;}
+
+h1, h2, h3, h4, h5, h6, .tp-caption {font-family: "Georgia", Arial, sans-serif !important;}
+
+h4 {
+    font-size: 14px;
+    line-height: 20px;
+    font-family:"Georgia",'Times New Roman',Times,serif;
+    margin-bottom:4px;
+    margin-top:20px;
+    color: #000000;
+}
+
+h1, h2 {
+    color: #000000;
+    font-family: "Georgia",'Times New Roman',Times,serif;
+}
+h1 {font-size: 30px;}
+h2 {font-size: 16px;}
+
+#pageTitle {border-bottom: 4px solid #000;border-top:2px dotted #000;padding:20px 0;}
+
+body {color:#000;border:none;}
+
+#menu li > ul li a {background-color:#000;color:#fff;font-weight:normal;text-transform:none;font-size:11px;padding:12px 20px;height:40px;}
+
+#menu li > ul li a:hover {color:#cc1141 !important;}
+#menu li > ul li {border-bottom:1px solid #000;}
+#menu li > ul li.hide {display:none;}
+#menu li > ul {box-shadow:none;top:39px;}
+
+#menu li > ul li.selected > a, .no-touch #menu li > ul li.selected:hover > a {
+color: #cc1141;background: #000;}
+
+#breadcrumb, #breadcrumb a, #breadcrumb .icon-home {font-style: normal;color: #000;border:none;font-size: 11px;}
+.icon-home:before {content:'ASIC'!important;padding-top:2px;}
+
+.featured img {display:block;width:100%;height:auto;}
+
+#pageTitle {margin: 30px 0;}
+
+#footer1 .widget_title h5 {
+    border-bottom: 0 solid #FFFFFF;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: "Georgia",'Times New Roman',Times,serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: -1px;
+    padding: 0 25px 10px 0;
+    text-transform: none;
+}
+
+#footer1 .widget_title {
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 3px;
+}
+
+#footer1 a {
+    color: #FFFFFF;
+}
+
+#footer1 {background: #000;color: #ffffff;}
+
+#footer2 a {color:#000000;}
+
+#footer2 a:hover {color:#333333;}
+
+#footer2 {
+    background-color: #FFFF00;
+    color: #000000;
+    font-size: 11px;
+    height: 40px;
+    padding: 10px 0;
+}
+
+#footer2 .rbSocial.icons li:before {
+    color: #000000;
+}
+
+.submenu .menu {font-size:12px;}
+.submenu ul li {border-bottom:1px solid #000;}
+.submenu ul li.hide {display:none;}
+.submenu ul li.current-menu-item > a {color:#cc1141;}
+.submenu ul li a {color:#000;padding:8px 0 6px;display:block;width:100%;}
+.submenu ul li a:hover {color:#cc1141;}
+.submenu ul li ul {margin:0;}
+.submenu ul li ul li {border-bottom:none;text-transform:none;}
+.submenu ul li ul li a {padding:0 0 5px;}
+
+.sidebar .widget_title h4, .cwidget .widget_title h4 {width: 100%;padding:10px 0 8px;text-align: center;line-height:22px;border-top:1px solid #000;border-bottom:4px solid #000;color:#000;margin-top:5px;font-size:14px;text-transform:none !important;}
+
+.widget .sub-menu {display:block;margin-left:15px;}
+
+.rbButton.small {
+    background-color: #FFFF00;
+    font-size: 12px;
+    height: 20px;
+    padding: 1px 10px;
+    text-transform: none;
+    line-height:19px;
+    color: #000000;
+}
+
+.f_width #searchform {top: 31px;border-bottom:1px solid #000;}
+
+.f_width #menu > ul {top: 25px !important;}
+
+#logo {padding: 16px 0 31px 0;}
+
+#sidebarRight {line-height:24px;}
+
+.sidebar .widget {
+    margin-top: 0px;
+}
+
+.sidebar .widget_title, .cwidget .widget_title {
+    border-bottom: 1px solid #E9E9E9;
+    margin-bottom: 1px;
+}
+
+#s {width:200px;color:#000;height:20px;padding-left:0;border:none;}
+
+#content {line-height:22px;}
+
+.rbSocial.list li {background:none;}
+
+.postsNav {
+    display: none;
+    float: right;
+}
+
+#items img {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+#content > section, #content > div, #content > blockquote, #content > article, #content > article, #content > .title {
+    margin-bottom: 40px;
+}
+
+.sectionTitle {border-bottom: 1px solid #000000;}
+
+.sectionTitle strong {
+    display: table-cell;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-family:"Georgia", 'Times New Roman', Times, serif;
+}
+
+#searchform .holder, #searchsubmit {width:26px;height:26px;}
+
+#searchsubmit {padding:0;margin-top:0;border:1px solid #000;background:url('img/search_arrow_off.gif') 0px center no-repeat;}
+
+#searchsubmit:hover {background:url('img/search_arrow_on.gif') 0px center no-repeat;}
+
+.list1, .list2, .list3, .list4 {
+    display: inline-block;
+    padding: 1px 0;
+}
+
+.list4:before {
+    content: "•";
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.introtext { font-family:"Georgia", 'Times New Roman', Times, serif; font-weight:200; font-style:italic; font-size:16px;color:#000000;}
+
+img {border: 0 none;max-width: 100%;vertical-align: middle; height: auto; color:#ffffff; font-size:0px;}
+
+.classic .pTitle h2 {
+    margin-bottom:0;
+    font-family:"Georgia", 'Times New Roman', Times, serif;
+}
+
+.modern .format-standard .pTitle:before, .classic .format-standard .pTitle h2:before, .rbPosts.classic .format-standard header a:before {
+    content: "";
+    padding-top: 9px;
+    display: none;
+}
+
+.rbTabs .titles li {
+    border-left: 0 solid #DADAD9;
+    border-right: 0 none;
+    border-top: 0 none;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.rbTabs .contents {
+    background: none repeat scroll 0 0 #dadad9;
+    border: 1px solid #dadad9;
+    margin-top: -1px;
+    min-height: 50px;
+    padding: 15px;
+}
+
+.rbTabs .titles li:first-child {
+    border-left: 0px solid #dadad9;
+}
+
+.rbBox.light {
+    background: none repeat scroll 0 0 #DADAD9;
+    border: 1px solid #DADAD9;
+    color: #000000;
+}
+
+.rbButton {
+    clear: left;
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    font-family:"Georgia", 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 200;
+    height: 34px;
+    margin-bottom: 10px;
+    padding: 8px 17px;
+    text-transform: normal;
+    text-decoration:underline;
+    font-style:italic;
+}
+
+.delta-agenda-signup {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 12px;
+    font-family: "Georgia",'Times New Roman',Times,serif;
+    margin-top: 30px;
+}
+
+.delta-agenda-signup .introtext {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.delta-agenda-signup a {
+    color: #FFFFFF;
+}
+
+.delta-agenda-signup a:hover {
+    color:#cc1141;
+}
+
+.widget_meta ul li, .widget_pages ul li, .widget_categories ul li, .widget_archive ul li, .widget_recent_entries ul li, .widget_recent_comments ul li, .widget_rss ul li, .widget_layered_nav ul li, .widget_product_categories ul li {
+    border-top: 1px solid #000000;
+    display: inline-block;
+    padding: 6px 0 6px 1px;
+    width: 100%;
+}
+
+.rbTestimonial blockquote {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-family: "Georgia",'Times New Roman',Times,serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 10px 0;
+    color: #cc1141;
+    text-align: center;
+}
+
+.rbTestimonial figcaption p {
+    font-family: "Georgia",'Times New Roman',Times,serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 12px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.rbTestimonial figcaption span {
+    font-family: "Georgia",'Times New Roman',Times,serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 12px;
+    margin: 0 0 -3px;
+}
+
+.rbTestimonial figcaption {
+    margin: 2px 0 0;
+    line-height: 14px;
+    text-align: center;
+}
+
+.rbTestimonial blockquote:after, .rbTestimonial blockquote:before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgba(0, 0, 0, 0) -moz-use-text-color rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: medium;
+    content: " ";
+    display: none;
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    width: 0;
+}
+
+.single-product .description.rbTabs .titles li {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border-bottom: 1px solid #dadad9;
+}
+
+.rbTabs .titles li.opened {
+    background: none repeat scroll 0 0 #dadad9;
+}
+
+.rbTestimonial blockquote:before {
+    border-color: #dadad9 rgba(239, 239, 239, 0) rgba(239, 239, 239, 0);
+    border-width: 24px;
+    left: 0;
+    margin-left: 24px;
+}
+
+.rbTestimonial blockquote:after {
+    border-color: #DADAD9 rgba(247, 247, 247, 0) rgba(247, 247, 247, 0);
+    border-width: 22px;
+    left: 0;
+    margin-left: 25px;
+}
+
+#filter {
+    cursor: pointer;
+    padding: 10px 0;
+    position: absolute;
+    right: 0;
+    top: -80px;
+    z-index: 99997;
+}
+
+.tone #items h3 {
+    color: #000000;
+    font-family:"Georgia", 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: -1px;
+    text-transform: none !important;
+}
+
+.tone #items .caption {
+    border-bottom: 1px solid #000000;
+    float: left;
+    height: 71px;
+    padding: 9px 0 14px;
+    text-align: center;
+    width: 100%;
+}
+
+.tone #items span {
+    color: #000000;
+    font-size: 12px;
+    font-style: normal;
+}
+
+#projectTitle h2 {
+    color: #000000;
+    font-family:"Georgia", 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 1px;
+    width: 70%;
+}
+
+.buttons a.btnNext {
+    padding: 0px 0 0 2px;
+}
+
+.buttons a {
+    background: none repeat scroll 0 0 #000000;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-family: 'fontello';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    height: 24px;
+    margin-left: 4px;
+    padding: 0px 1px 0 0;
+    text-align: center;
+    width: 24px;
+}
+
+.buttons a.btnClose {
+    font-size: 10px;
+    margin-left: 26px;
+    padding: 1px 0 0;
+}
+
+.buttons a.btnClose:before {
+    border-left: 0 solid #E9E9E9;
+    content: "";
+    cursor: default;
+    display: block;
+    font-size: 55px;
+    height: 32px;
+    position: absolute;
+    right: 40px;
+    top: -2px;
+}
+
+#filter ul {
+    background: none repeat scroll 0 0 #000000 !important;
+    border: 0px solid #E9E9E9;
+    border-radius: 0px;
+    float: right;
+    height: 50px;
+    margin: -10px 0 0;
+    overflow: hidden;
+    padding: 15px 10px;
+}
+
+.f_width #headerWidgets {
+    padding-top: 31px;
+}
+
+#headerWidgets .widget {
+    border-bottom: 1px solid #000000;
+    float: left;
+    margin-left: 240px;
+    padding-bottom: 11px;
+}
+
+.rbAccordion.small > section h4 {
+    color: #000000;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.rbAccordion.small.one > section h4:before {
+    color: #000000;
+    content: "";
+    display: inline-block;
+    font-family: 'fontello';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: normal;
+    left: 0;
+    position: absolute;
+    top: auto;
+}
+
+.rbAccordion.small > section {
+    border-top: 1px solid #000000;
+    float: left;
+    margin-top: 14px;
+    padding-left: 20px;
+    padding-top: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.rbTabs .titles li a {
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    color: #000000;
+    display: block;
+    font-family: "Georgia",'Times New Roman',Times,serif;
+    font-size: 12px;
+    margin: -1px 0 0;
+    padding: 9px 16px;
+    text-transform: none;
+}
+
+.rbTabs .titles li.opened a {
+    border-top: 1px solid #000000;
+    color: #000000;
+}
+
+hr {
+    background: none repeat scroll 0 0 #000000;
+    border: medium none;
+    height: 1px;
+    outline: medium none;
+    width: 100%;
+}
+
+.blank .tp-bullets .bullet.selected span {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.blank .tp-bullets .bullet {
+    background: none repeat scroll 0 0 #000000 !important;
+    border-radius: 7px !important;
+    float: left !important;
+    height: 12px !important;
+    margin: 0 1.5px !important;
+    padding: 0 !important;
+    width: 12px !important;
+}
+
+.blank .tp-bullets .bullet:hover span {
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.classic .meta li.date i:before {
+    display: none;
+    font-size: 16px;
+    margin-top: -3px;
+}
+
+.classic ul.meta {
+    color: #000000;
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+}
+
+.rbBox.dark {
+    background: none repeat scroll 0 0 #000000;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+}
+
+.rbBox.dark a {
+color: #fff;
+font-style: normal !important;
+text-decoration: none !important;
+}
+
+.rbBox.dark a:visited,
+.rbBox.dark a:hover { 
+ color: #DDDDDD; 
+ text-decoration: none; 
+}
+
+.rbBox {
+    padding: 0 20px 10px;
+}
+
+.widget_meta ul a, .widget_pages ul a, .widget_categories ul a, .widget_archive ul a, .widget_recent_entries ul a, .widget_recent_comments ul a, .widget_rss ul a, .widget_layered_nav ul a, .widget_product_categories ul a {color:#000;}
+
+.no-touch .widget_pages ul li a:hover, .no-touch .widget_categories ul li a:hover, .no-touch .widget_archive ul li a:hover, .no-touch .widget_recent_entries ul li a:hover, .no-touch .widget_recent_comments ul li a:hover, .no-touch .widget_rss ul li a:hover, .no-touch .widget_layered_nav ul li a:hover, .no-touch .widget_product_categories ul li a:hover {padding-left:0;}
+
+.no-touch a:hover, .no-touch #menu a:hover, .no-touch #pageTitle a:hover, .no-touch.csstransitions .tone #items a:hover h3, .tone #items a.iehover h3, .no-touch .classic .pTitle h2:hover, .no-touch .classic .meta a:hover, .no-touch #comments-title:hover, .no-touch #comments-title:hover:before, .no-touch .comment-reply-link:hover:before, .await, #comment-status p, .no-touch .rbAccordion.small > section h4:hover, .no-touch .rbAccordion.small > section h4:hover:before, .no-touch .rbAccordion.large h4:hover, .no-touch .rbContactInfo ul li a:hover:before, .no-touch .rbContactInfo ul li a:hover, .errorMessage, .no-touch .rbCustomPosts a:hover h4, .no-touch .rbCustomPosts a:hover .comments i:before, .no-touch .rbPosts.classic header:hover h3, .no-touch .rbTextIcon > a:hover > h4, .no-touch .rbTextIcon.minimal > a:hover > i, .no-touch .rbTwitter li a:hover, .no-touch .rbTwitter .time:hover, .no-touch .rbTwitter > a:hover span, .no-touch .rbSocial.list li:hover:before, .no-touch .rbSocial.list li:hover a, .no-touch .rbSocial.icons li:hover:before, .no-touch .rbTabs .titles li a:hover, .no-touch .widget.email a:hover i, .no-touch .widget.phone a:hover i, .no-touch .widget_meta ul li a:hover:before, .no-touch .widget_meta ul li a:hover, .no-touch .widget_pages ul li a:hover, .no-touch .widget_categories ul li a:hover, .no-touch .widget_archive ul li a:hover, .no-touch .widget_recent_entries ul li a:hover, .no-touch .widget_recent_comments ul li a:hover, .no-touch .widget_rss ul li a:hover, #breadcrumb a:hover, #breadcrumb .icon-home:hover, .no-touch #menu > ul > li:hover > a, .no-touch .rbButton.light:hover, .woocommerce-pagination .next:hover, .woocommerce-pagination .prev:hover, p.out-of-stock, .tp-caption.button_light > a:hover, .id-level-title, .progress-percentage, .no-touch.csstransitions ul.products li:hover h3, .ul.products li.iehover h3 {color:#ce1141 !important;}
+
+input, textarea {
+border: none;
+background:none;
+padding:0px;
+font: 12px Arial, sans-serif;
+color: #000;
+width: 100%;
+display: inline-block;
+resize: none;
+margin: 0 0 10px 0;
+border-bottom: 1px solid #000;
+}
+
+.yellow input[type="submit"] {background:#FFFF00;color:#000;}
+.yellow input[type="submit"]:hover {background:#FFFF00;}
+
+
+/* News Section Styles */
+.classic .pTitle h2 {padding:0;color:#000;}
+.classic .excerpt {margin-left:0;}
+.classic .post {padding-bottom:40px;margin-top:40px;}
+.classic ul.meta {position:relative; width:auto;float:left;}
+.more.nav-next:after {display:none;}
+.classic .excerpt .more {font-style: italic;text-decoration: underline;font-size: 12px;font-weight: normal;}
+
+.classic .post {
+    border-bottom: 1px solid #000000;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Table Styles */
+table {border:none;font-size:11px;}
+table > tbody > tr:first-child > td {background-color:#000;color: #fff;border: 1px dotted #000;border:none;}
+table .buy {font-family: "Georgia";text-decoration: underline;font-style:italic;font-size: 12px;background-color: yellow;padding: 3px 6px;}
+
+table td:first-child {border-left:1px solid #fff;}
+table td:last-child {border-right:1px solid #fff;}
+table td {border:1px dotted #000;border-bottom:1px solid #000;padding: 10px;}
+
+
+/* Resposive Menu Styles */
+
+@media all and (max-width: 1054px) {
+.f_width #menu > ul {top:47px;} 
+}
+@media (max-width: 440px) {
+.f_width #menu > ul {top:53px !important;}
+}
+@media (max-width: 940px) {
+#menu li ul {display:none !important;}
+#menu .responsive {font-size:14px;font-weight:normal;}
+}
+
+/* Rev Slider */
+.rev_slider_wrapper {clear:left;}
+@media (max-width: 760px) {
+.tshowcase {text-align:center;}
+}
+
+/* Custom Styles */
+body.page-id-2742 #menu, body.page-id-2742 #breadcrumb, body.page-id-2742 #multix, body.page-id-2742 #mainHeader {display:none !important;}
+body.page-id-2742 #logo, body.page-id-2742 #logo img {padding-top:0 !important;}
+
+body.page-id-2941 #menu, body.page-id-2941 #breadcrumb, body.page-id-2941 #multix, body.page-id-2941 #mainHeader {display:none !important;}
+body.page-id-2941 #logo, body.page-id-2941 #logo img {padding-top:0 !important;}
+
+body.page-id-2946 #menu, body.page-id-2946 #breadcrumb, body.page-id-2946 #multix, body.page-id-2946 #mainHeader {display:none !important;}
+body.page-id-2946 #logo, body.page-id-2946 #logo img {padding-top:0 !important;}
+
+body.page-id-3208 #menu, body.page-id-3208 #breadcrumb, body.page-id-3208 #multix, body.page-id-3208 #mainHeader {display:none !important;}
+body.page-id-3208 #logo, body.page-id-3208 #logo img {padding-top:0 !important;}
+
+.customlp1 {font-style:normal;font-weight:bold !important;text-decoration:none;font:12px arial, sans-serif;padding-top:10px;}
+.customlp1:hover {background:#000 !important;color:#fff !important;}
+
+input.email {margin-bottom:15px;}
+
+.rbSocial.icons li:before {
+    color: #000000;
+    font-size: 16px;
+    position: relative;
+}
+
+.list1, .list2, .list3, .list4 {
+display: inline-block;
+padding: 1px 0;
+display: flex;
+}
+
+
+
+/* IdemoLab Special styles below*/
+
+.fts-jal-fb-name {
+color: #000 !important;
+font-size: 13px !important;
+line-height: 16px !important;
+}
+
+.fts-jal-single-fb-post {
+    border-bottom: 1px solid #000000;
+    line-height: 17px;
+    margin-bottom: 24px !important;
+    overflow: hidden;
+    padding-bottom: 30px !important;
+    padding-top: 5px !important;
+    position: relative;
+    width: 100%;
+}
+
+/* SenseLab special stylings? */
+
+i.i-default {
+    color: #000;
+    cursor: default;
+    display: table-cell;
+    font-size: 24px;
+    height: 40px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.rbTextIcon > h4, .rbTextIcon > a > h4 {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 25px 0 0;
+}
+
+
+
+/** Adding elements from COOKIE BAR, 13-03-2015 @ MSH **/
+
+
+
+span#cookie_hdr_showagain {
+background-color: black !important;
+color: white !important;
+padding: 15px 14px 15px 10px;
+line-height: 3.0em;
+font-family: Arial;
+font-size: 11px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+div#cookie-law-info-again {
+background-color: transparent !important;
+}
+
+.cli-plugin-button, .cli-plugin-button:visited {
+background: #000 !important;
+display: inline-block;
+padding: 5px 10px 6px;
+color: #fff;
+text-decoration: none;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px !important;
+-moz-box-shadow: 0 0px 0px rgba(0,0,0,0.0) !important;
+webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.0) !important;
+text-shadow: 0 0px 0px rgba(0,0,0,0) !important;
+border-bottom: 0px solid rgba(0,0,0,0) !important; 
+position: relative;
+cursor: pointer;
+margin: auto 10px;
+}
+
+
+#cookie-law-info-bar {
+background-color: #FFFF00 !important;
+}
+
+a#CONSTANT_OPEN_URL {
+font-family: Arial;
+font-style: italic;
+text-decoration: underline;
+color: black !important;
+font-size: 12px;
+}
+
+.cli-plugin-button, .cli-plugin-button:visited, .medium.cli-plugin-button, .medium.cli-plugin-button:visited {
+font-size: 11px;
+font-weight: bold;
+/* line-height: 1; */
+/* text-shadow: 0 -1px 1px rgba(0,0,0,0.25); */
+text-transform: uppercase;
+}
+
+
+
+
+/* Test af cookie bar*/
+
+
+div#cookie-law-info-again {
+background-color: transparent !important;
+}
+
+div#cookielink {
+width: 96%;
+position: absolute;
+bottom: 20%;
+}
+.cli-plugin-button, .cli-plugin-button:visited {
+background: #000 !important;
+display: inline-block;
+padding: 5px 10px 6px;
+color: #fff;
+text-decoration: none;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px !important;
+-moz-box-shadow: 0 0px 0px rgba(0,0,0,0.0) !important;
+webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.0) !important;
+text-shadow: 0 0px 0px rgba(0,0,0,0) !important;
+border-bottom: 0px solid rgba(0,0,0,0) !important; 
+position: relative;
+cursor: pointer;
+margin: auto 10px;
+}
+
+
+#cookie-law-info-bar {
+background-color: yellow !important;
+}
+
+div#test {
+margin-top: 20px;
+}
+
+
+.cli-plugin-button, .cli-plugin-button:visited, .medium.cli-plugin-button, .medium.cli-plugin-button:visited {
+font-size: 11px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.cli-plugin-button, .cli-plugin-button:visited {
+  background: #222 url('../images/overlay.png.html') repeat-x;
+  display: inline-block;
+  padding: 10px 10px 10px;
+  color: #fff;
+  text-decoration: none;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-box-shadow: 0 0px 0px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.6);
+  text-shadow: 0 0px 1px rgba(0,0,0,0);
+  border-bottom: 0px solid rgba(0,0,0,0);
+  position: relative;
+  cursor: pointer;
+  margin: auto 10px;
+  top: 7px !important;
+}
+
+div#cookielink {
+line-height: 0px;
+}
+
+/** END of cookie bar elements.**/
+
+
+#cookie-law-info-bar {
+  background-color: #58585b !important;
+}
+
+a#cookie_action_close_header {
+  background-color: black !important;
+}
+
+div#cookie-law-info-bar {
+  color: white !important;
+}
+
+/* Cookie button */
+.rbButton {
+    clear: left;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    height: 34px;
+    margin-bottom: 10px;
+    padding: 8px 17px;
+    text-decoration: none;
+}
+
+
+
+/* Contact form 7, 01-07-2015 @MSH*/
+
+.wpcf7 p {
+  font-weight: normal !important;
+}
+
+
+/* Grey element in input boxes.*/
+
+.newsletter-asic{
+  background-color: rgb(209, 209, 209);
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 0px !important;
+  height: 30px;
+}
+
+form label span, .ignitiondeck form .form-row label span {
+  font-style: normal;
+  color: #000000;
+  font-weight: 400;
+}
+
+.asic-valg {
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.asic-valg label {
+    height: 0px;
+}
+
+div#wpcf7-f4028-p94-o1 {
+  margin-bottom: -20px !important;
+}
+
+/* Events manager stylings for inheritance. @ MSH, 16-04-2015*/
+
+.cap {
+  border-bottom: 1px solid #000000;
+  height: 90px;
+  padding: 20px 0 20px;
+  text-align: center;
+}
+
+.col-md-4.meet-us-at {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+.cap:hover {
+  border-color: #FD4326;
+  background-color: #F7F7F7;
+/*  border-left: 1px solid black;
+  border-right: 1px solid black; */
+  border-bottom: 1px solid black;
+}
+
+.cap a:hover {
+  color: black !important;
+  text-decoration: none;
+}
+
+.no-touch a:hover, .no-touch #menu a:hover, .no-touch #pageTitle a:hover, .no-touch .tone #items a:hover h3, .tone #items a.iehover h3, .no-touch .classic .pTitle h2:hover, .no-touch .classic .meta a:hover, .no-touch #comments-title:hover, .no-touch #comments-title:hover:before, .no-touch .comment-reply-link:hover:before, .await, #comment-status p, .no-touch .rbAccordion.small > section > h4:hover, .no-touch .rbAccordion.small > section > h4:hover:before, .no-touch .rbAccordion.large > section > h4:hover, .no-touch .rbContactInfo ul li a:hover:before, .no-touch .rbContactInfo ul li a:hover, .errorMessage, .no-touch .rbCustomPosts a:hover h4, .no-touch .rbCustomPosts a:hover .comments i:before, .no-touch .rbPosts.classic header:hover h3, .no-touch .rbTextIcon > a:hover > h4, .no-touch .rbTextIcon.minimal > a:hover > i, .no-touch .rbTwitter li a:hover, .no-touch .rbTwitter .time:hover, .no-touch .rbTwitter > a:hover span, .no-touch .rbSocial.list li:hover:before, .no-touch .rbSocial.list li:hover a, .no-touch .rbSocial.icons li:hover:before, .no-touch .rbTabs .titles li a:hover, .no-touch .widget.email a:hover i, .no-touch .widget.phone a:hover i, .no-touch .widget_meta ul li a:hover:before, .no-touch .widget_meta ul li a:hover, .no-touch .widget_pages ul li a:hover, .no-touch .widget_categories ul li a:hover, .no-touch .widget_archive ul li a:hover, .no-touch .widget_recent_entries ul li a:hover, .no-touch .widget_recent_comments ul li a:hover, .no-touch .widget_rss ul li a:hover, #breadcrumb a:hover, #breadcrumb .icon-home:hover, .no-touch #menu > ul > li:hover > a, .no-touch .rbButton.light:hover, .woocommerce-pagination .next:hover, .woocommerce-pagination .prev:hover, p.out-of-stock, .tp-caption.button_light > a:hover, .id-level-title, .progress-percentage, .no-touch ul.products li:hover h3, .ul.products li.iehover h3, .no-touch .miniF .product-name a:hover, .no-touch .rbTextIcon.two > a:hover > i, #breadcrumb.woo a:first-child:hover:before {
+    color: #CE1141 !important;
+}
+
+#filter p {
+    float: left;
+    margin: 5px 10px 0 0;
+}
+
+.no-touch a:hover, .no-touch #menu a:hover, .no-touch #pageTitle a:hover, .no-touch.csstransitions .tone #items a:hover h3, .tone #items a.iehover h3, .no-touch .classic .pTitle h2:hover, .no-touch .classic .meta a:hover, .no-touch #comments-title:hover, .no-touch #comments-title:hover:before, .no-touch .comment-reply-link:hover:before, .await, #comment-status p, .no-touch .rbAccordion.small > section h4:hover, .no-touch .rbAccordion.small > section h4:hover:before, .no-touch .rbAccordion.large h4:hover, .no-touch .rbContactInfo ul li a:hover:before, .no-touch .rbContactInfo ul li a:hover, .errorMessage, .no-touch .rbCustomPosts a:hover h4, .no-touch .rbCustomPosts a:hover .comments i:before, .no-touch .rbPosts.classic header:hover h3, .no-touch .rbTextIcon > a:hover > h4, .no-touch .rbTextIcon.minimal > a:hover > i, .no-touch .rbTwitter li a:hover, .no-touch .rbTwitter .time:hover, .no-touch .rbTwitter > a:hover span, .no-touch .rbSocial.list li:hover:before, .no-touch .rbSocial.list li:hover a, .no-touch .rbSocial.icons li:hover:before, .no-touch .rbTabs .titles li a:hover, .no-touch .widget.email a:hover i, .no-touch .widget.phone a:hover i, .no-touch .widget_meta ul li a:hover:before, .no-touch .widget_meta ul li a:hover, .no-touch .widget_pages ul li a:hover, .no-touch .widget_categories ul li a:hover, .no-touch .widget_archive ul li a:hover, .no-touch .widget_recent_entries ul li a:hover, .no-touch .widget_recent_comments ul li a:hover, .no-touch .widget_rss ul li a:hover, #breadcrumb a:hover, #breadcrumb .icon-home:hover, .no-touch #menu > ul > li:hover > a, .no-touch .rbButton.light:hover, .woocommerce-pagination .next:hover, .woocommerce-pagination .prev:hover, p.out-of-stock, .tp-caption.button_light > a:hover, .id-level-title, .progress-percentage, .no-touch.csstransitions ul.products li:hover h3, .ul.products li.iehover h3 {
+    text-decoration: none !important;
+}
+
+.eventlink {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#filter li.active a {
+    color: #FFFFFF;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+
+
+/** MSH Ændringer til Portofilio 05-08-2015 **/
+
+#folioDetails {
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
+
+.buttons a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-family: 'fontello';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    height: 20px;
+    margin-left: 4px;
+    padding: 0px 1px 0 0;
+    text-align: center;
+    width: 20px;
+    color: #000;
+    line-height: 18px;
+}
+
+
+
+table[id^="ssfa-table"].ssfa-minimalist > thead {
+    display: none;
+}
+
+table[id^="ssfa-table"].ssfa-minimalist {
+    background: #FFFFFF;
+    border: 0;
+    border-bottom: 0;
+    border-collapse: separate;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-spacing: 0;
+    color: #666666;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Droid Sans", "Trebuchet MS", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 0 0 0;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    margin-bottom: -60px !important;
+}
+
+h3.ssfa-black, div.ssfa-flightbox-controls.ssfa-black span, table[id^="ssfa-table"] tbody td div.ssfa-player.ssfa-black span[id^=fileaplay_], table[id^="ssfa-table"] tbody td div.ssfa-player.ssfa-black span[id^=fileaplay_]:hover, table[id^="ssfa-table"] tbody td div.ssfa-player.ssfa-black span[id^=fileaplay_]:active, table[id^="ssfa-table"] tbody td span.ssfa-faminicon.ssfa-black, table[id^="ssfa-table"] tbody td span.ssfa-faminicon.ssfa-black:hover, table[id^="ssfa-table"] tbody td span.ssfa-faminicon.ssfa-black:active, table[id^="ssfa-table"] tbody td a.ssfa-black span.ssfa-filename, table[id^="ssfa-table"] tbody td a.ssfa-black:visited span.ssfa-filename, div[id^="ssfa-list-wrap"].ssfa-silk a.ssfa-black, div[id^="ssfa-list-wrap"].ssfa-silk a.ssfa-black:visited, div[id^="ssfa-list-wrap"].ssfa-minimal-list a.ssfa-black, div[id^="ssfa-list-wrap"].ssfa-minimal-list a.ssfa-black:visited, div[id^="ssfa-list-wrap"].ssfa-minimal-list a.ssfa-black:hover, div[id^="ssfa-list-wrap"].ssfa-minimal-list a.ssfa-black:active, div[id^="ssfa-list-wrap"].ssfa-silk span.ssfa-listicon.ssfa-black, div[id^="ssfa-list-wrap"].ssfa-silk span.ssfa-listicon.ssfa-black a, div[id^="ssfa-list-wrap"].ssfa-silk span.ssfa-listicon.ssfa-black a:hover, div[id^="ssfa-list-wrap"].ssfa-silk span.ssfa-listicon.ssfa-black a:active, div[id^="ssfa-list-wrap"].ssfa-silk span.ssfa-listicon.ssfa-black a:visited, div[id^="ssfa-list-wrap"].ssfa-silk span.ssfa-paperclip.ssfa-black, div[id^="ssfa-list-wrap"].ssfa-silk span.ssfa-paperclip.ssfa-black a, div[id^="ssfa-list-wrap"].ssfa-silk span.ssfa-paperclip.ssfa-black a:hover, div[id^="ssfa-list-wrap"].ssfa-silk span.ssfa-paperclip.ssfa-black a:active, div[id^="ssfa-list-wrap"].ssfa-silk span.ssfa-paperclip.ssfa-black a:visited, div[id^="ssfa-list-wrap"].ssfa-minimal-list span.ssfa-listicon.ssfa-black, div[id^="ssfa-list-wrap"].ssfa-minimal-list span.ssfa-listicon.ssfa-black a, div[id^="ssfa-list-wrap"].ssfa-minimal-list span.ssfa-listicon.ssfa-black a:hover, div[id^="ssfa-list-wrap"].ssfa-minimal-list span.ssfa-listicon.ssfa-black a:active, div[id^="ssfa-list-wrap"].ssfa-minimal-list span.ssfa-listicon.ssfa-black a:visited, div[id^="ssfa-list-wrap"].ssfa-minimal-list span.ssfa-paperclip.ssfa-black, div[id^="ssfa-list-wrap"].ssfa-minimal-list span.ssfa-paperclip.ssfa-black a, div[id^="ssfa-list-wrap"].ssfa-minimal-list span.ssfa-paperclip.ssfa-black a:hover, div[id^="ssfa-list-wrap"].ssfa-minimal-list span.ssfa-paperclip.ssfa-black a:active, div[id^="ssfa-list-wrap"].ssfa-minimal-list span.ssfa-paperclip.ssfa-black a:visited {
+    color: #444444!important;
+    margin-bottom: -15px !important;
+}
+
+/*
+
+
+.no-touch a:hover, .no-touch #menu a:hover, .no-touch #pageTitle a:hover, .no-touch.csstransitions .tone #items a:hover h3, .tone #items a.iehover h3, .no-touch .classic .pTitle h2:hover, .no-touch .classic .meta a:hover, .no-touch #comments-title:hover, .no-touch #comments-title:hover:before, .no-touch .comment-reply-link:hover:before, .await, #comment-status p, .no-touch .rbAccordion.small > section h4:hover, .no-touch .rbAccordion.small > section h4:hover:before, .no-touch .rbAccordion.large h4:hover, .no-touch .rbContactInfo ul li a:hover:before, .no-touch .rbContactInfo ul li a:hover, .errorMessage, .no-touch .rbCustomPosts a:hover h4, .no-touch .rbCustomPosts a:hover .comments i:before, .no-touch .rbPosts.classic header:hover h3, .no-touch .rbTextIcon > a:hover > h4, .no-touch .rbTextIcon.minimal > a:hover > i, .no-touch .rbTwitter li a:hover, .no-touch .rbTwitter .time:hover, .no-touch .rbTwitter > a:hover span, .no-touch .rbSocial.list li:hover:before, .no-touch .rbSocial.list li:hover a, .no-touch .rbSocial.icons li:hover:before, .no-touch .rbTabs .titles li a:hover, .no-touch .widget.email a:hover i, .no-touch .widget.phone a:hover i, .no-touch .widget_meta ul li a:hover:before, .no-touch .widget_meta ul li a:hover, .no-touch .widget_pages ul li a:hover, .no-touch .widget_categories ul li a:hover, .no-touch .widget_archive ul li a:hover, .no-touch .widget_recent_entries ul li a:hover, .no-touch .widget_recent_comments ul li a:hover, .no-touch .widget_rss ul li a:hover, #breadcrumb a:hover, #breadcrumb .icon-home:hover, .no-touch #menu > ul > li:hover > a, .no-touch .rbButton.light:hover, .woocommerce-pagination .next:hover, .woocommerce-pagination .prev:hover, p.out-of-stock, .tp-caption.button_light > a:hover, .id-level-title, .progress-percentage, .no-touch.csstransitions ul.products li:hover h3, .ul.products li.iehover h3 {
+    line-height: 20px;
+}
+
+*/
+
+
+/*
+
+a.btnClose {
+    line-height: 16px;
+}
+
+
+*/
+
+/*
+Husk at target button kun.
+
+a.btnClose:hover {
+    line-height: 16px;
+}
+
+*/
+
+
+/* Test på styling af knapper til Portfolio */
+
+/* 
+.no-touch a:hover {
+    color: white !important;
+}
+
+*/
+
+
+/* Specific settings for CASES site at IdemoLab.com for not showing tags. @MSH 03-09-2015*/
+.page-id-569 .tone #items span {
+    display: none;
+}
+
+.hesperiden .tp-bullet:hover, .hesperiden .tp-bullet.selected {
+    background: #000 !important;
+    border: none !important;
+}
+
+.hesperiden .tp-bullet {
+    border: none !important;
+}
+
+
+.hesperiden .tp-bullet {
+    background: #999999 !important;
+}
+
+
+
+.page-id-569 .tone #items span {
+    display: inherit;
+    position: relative;
+    height: auto;
+}
+
+.page-id-569 .tone #items .caption h3 {
+    height: 62px;
+}
+
+.nlposts-ulist-title span {
+    float: right;
+}
+
+span.nlposts-ulist-meta {
+    display: none;
+}
+
+ul.nlposts-wrapper.nlposts-ulist.nav.nav-tabs.nav-stacked {
+    border-bottom: none;
+}
+
+.meta-holder .meta-title {
+    display: none;
+}
+
+/*Events Manager styles*/
+.show-language-dansk {
+    display: none;
+}
+.show-language-engelsk {
+    display: none;
+}
+
+    .eventnotes.span8.krown-column-container.clearfix {
+       padding-right: 20px;
+}
+
+
+.tshowcase-box-title {
+    border-top: 2px dotted #000000;
+    font-family: "Georgia",Times New Roman,Times,serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    padding-top: 8px;
+}
+
+#tshowcase-hover-wrap .tshowcase-box-title a {
+    color:#FFF;
+    text-decoration:none;
+}
+
+#tshowcase-hover-wrap .tshowcase-box-title a:hover {
+    color:#FFF;
+    text-decoration:underline;
+}
+
+.tshowcase-single-position { 
+    font-family: "Georgia",'Times New Roman',Times,serif;
+        font-size: 14px;
+        font-style: italic;
+        margin-bottom: 8px;
+}
+
+
+#pageTitle h1 {
+    line-height: 32px;
+}
+
+
+/*Stylings off Download table */
+table[id^="ssfa-table"].ssfa-silver-bullet > tbody > tr > td:first-child {
+    border-left: 0;
+    border: border-bottom;
+    border-bottom: 1px solid black;
+}
+
+table[id^="ssfa-table"].ssfa-silver-bullet > tbody > tr > td {
+    border: none;
+    border-left: 1px dotted black;
+    border-bottom: 1px solid black;
+}
+
+table[id^="ssfa-table"].ssfa-silver-bullet {
+border: none !important;
+}
+
+table[id^="ssfa-table"].ssfa-silver-bullet {
+    color: #000 !important;
+}
+
+table[id^="ssfa-table"].ssfa-silver-bullet th {
+    color: #fff !important;
+}
+
+
+table[id^="ssfa-table"].ssfa-silver-bullet > tbody > tr > td > a, table[id^="ssfa-table"].ssfa-silver-bullet > tbody > tr > td > a:link, table[id^="ssfa-table"].ssfa-silver-bullet > tbody > tr > td > a:visited, table[id^="ssfa-table"].ssfa-silver-bullet > tfoot > tr > td > div.ssfa-pagination > ul > li > a, table[id^="ssfa-table"].ssfa-silver-bullet > tfoot > tr > td > div.ssfa-pagination > ul > li > a:link, table[id^="ssfa-table"].ssfa-silver-bullet > tfoot > tr > td > div.ssfa-pagination > ul > li > a:visited {
+    color: #000 !important;
+}
+
+
+
+/*Stylings for events */
+        .catbox{border-bottom:1px solid black;}
+
+        .catright {
+    float: right;
+}
+
+.catleft {
+    float: left;
+    font-weight: bold;
+}
+
+.infoelement {
+    height: 22px;
+    border-bottom:1px solid black;
+}
+
+.dotted-line-whole-page {
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 12px;
+    margin-bottom: 17px;
+}
+
+.span12.krown-column-container.clearfix.seperator {
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+}
+
+.eventdesc {
+    padding-left: 15px;
+}
+
+.span6.krown-column-container.clearfix .course-list-description {
+    max-width: 90%
+}
+
+.tilmeldingsknap.span12.krown-column-container.clearfix {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+
+div.ajaxsearchpro[id*='ajaxsearchprosettings'].searchsettings fieldset .label, div.ajaxsearchpro[id*='ajaxsearchprobsettings'].searchsettings fieldset .label {
+    color: black;
+}
+
+div.ajaxsearchpro[id*='ajaxsearchprosettings'].searchsettings .option label, div.ajaxsearchpro[id*='ajaxsearchprobsettings'].searchsettings .option label {
+    border-radius: 0px !important;
+    background: #fff;
+    border: 1px solid black;
+}
+
+div.ajaxsearchpro[id*='ajaxsearchprobsettings'].searchsettings .option label:after {
+    border: 3px solid rgba(0, 0, 0, 0.91);
+    border-right: none;
+    border-top: none;
+}
+
+#ajaxsearchprores1_1 .results .item, #ajaxsearchprores1_2 .results .item, div.ajaxsearchpro[id*="ajaxsearchprores1_"] .results .item {
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+}
+
+
+
+/*Modifications for system*/
+
+div.ajaxsearchpro[id*='ajaxsearchprosettings'].searchsettings fieldset .label, div.ajaxsearchpro[id*='ajaxsearchprobsettings'].searchsettings fieldset .label {
+    color: black;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+
+div.ajaxsearchpro[id*='ajaxsearchprosettings'].searchsettings .option label, div.ajaxsearchpro[id*='ajaxsearchprobsettings'].searchsettings .option label {
+    box-shadow: 0px 0px 0px !important;
+    }
+
+    div.ajaxsearchpro[id*='ajaxsearchprobsettings'].searchsettings .option label:after {
+    border: 2px solid rgba(0,0,0,1);
+    border-right: none;
+    border-top: none;
+}
+
+div.ajaxsearchpro[id*='ajaxsearchprobsettings'].searchsettings fieldset legend {
+    padding: 5px 0 0 10px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Georgia", 'Times New Roman', Times, serif;
+    color: #000;
+}
+
+input.orig[placeholder] {
+    background-color: white !important;
+    font-family: Arial, sans-serif !important;
+    line-height: 14px !important;
+}
+
+#ajaxsearchpro1_1, #ajaxsearchpro1_2, div.ajaxsearchpro[id*="ajaxsearchpro1_"] {
+    box-shadow: 0px 1px 0px 0px rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.asp_content,  {
+    font-family: arial !important;
+}
+span.asp_date {
+    font-family: Arial !important;
+}
+
+a.asp_res_url {
+    font-family: arial !important;
+    margin-left: -10px !important;
+}
+
+.test-pub p {
+    font-weight: 100;
+    font-family: "Arial";
+    font-size: 12px;
+}
+
+#ajaxsearchprores1_1 .results .item div.etc, #ajaxsearchprores1_2 .results .item div.etc, div.ajaxsearchpro[id*="ajaxsearchprores1_"] .results .item div.etc {
+    padding: 0;
+    font-size: 13px;
+    line-height: 1.3em;
+    margin-bottom: 6px;
+    margin-left: -10px !important;
+}
+
+/* will be red only in google chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#ajaxsearchprores1_1 .results .item div.etc, #ajaxsearchprores1_2 .results .item div.etc, div.ajaxsearchpro[id*="ajaxsearchprores1_"] .results .item div.etc {
+    margin-top: -20px !important;
+}
+
+}
+
+
+
+#ajaxsearchprores1_1.vertical .item .asp_content h3, #ajaxsearchprores1_2.vertical .item .asp_content h3, div.ajaxsearchpro[id*="ajaxsearchprores1_"].vertical .item .asp_content h3 {
+    margin-left: 10px;
+}
+
+div.ajaxsearchpro[id*='ajaxsearchprosettings'].searchsettings fieldset .label, div.ajaxsearchpro[id*='ajaxsearchprobsettings'].searchsettings fieldset .label {
+    line-height: 21px !important;
+}
+
+.single-event .row-fluid .grey {
+    width: 97%;
+}
+
+
+#ajaxsearchprores1_1 .results .item, #ajaxsearchprores1_2 .results .item, div.ajaxsearchpro[id*="ajaxsearchprores1_"] .results .item {
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+#ajaxsearchprores1_1.vertical .results .item .asp_content, #ajaxsearchprores1_2.vertical .results .item .asp_content, div.ajaxsearchpro[id*="ajaxsearchprores1_"].vertical .results .item .asp_content {
+    padding: 0 0px;
+}
+
+#ajaxsearchprores1_1.vertical, #ajaxsearchprores1_2.vertical, div.ajaxsearchpro[id*="ajaxsearchprores1_"].vertical {
+    padding: 0px;
+     }
+
+     div.ajaxsearchpro[id*='ajaxsearchprosettings'].searchsettings fieldset .label, div.ajaxsearchpro[id*='ajaxsearchprobsettings'].searchsettings fieldset .label {
+    font-size: 12px;
+}
+
+div.ajaxsearchpro[id*='ajaxsearchprobsettings'].searchsettings fieldset legend {
+    padding-left: 0px;
+}
+
+div#mCSB_4_container {
+    position: relative;
+    margin-left: -10px;
+}
+
+#ajaxsearchpro1_1 .probox .proinput input.orig, #ajaxsearchpro1_2 .probox .proinput input.orig, div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .proinput input.orig {
+    margin-left: -15px;
+}
+
+.event-AFLYST {
+    display: none !important;
+}
+
+#logo img {
+    margin-bottom: -6px;
+    padding-top: 6px;
+    width: 72px;
+    height: 72px;
+}
+
+#logo {
+    display: inline-flex;
+}
+
+.default-ft {
+    height: 44px !important;
+    width: 80px !important;
+    margin-left: 12px;
+    margin-top: 28px;
+    padding-top: 3px !important;
+}
+
+/*Specifically hidden for ePatch, SPM */
+
+.epatch-news img.default-ft {
+    display: none !important;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){
+#logo .retina {
+    display: block;
+    width: 72px;
+    height: 72px;
+}
+}

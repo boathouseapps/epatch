@@ -1,0 +1,298 @@
+ /*
+ * Sticklr v1.4
+ * Sticky Side Panel CSS + jQuery Plugin
+ *
+ * Copyright 2011-2012 amatyr4n
+ * http://codecanyon.net/user/amatyr4n
+ *
+ * licensed under Envato licenses
+ * http://wiki.envato.com/support/legal-terms/licensing-terms/
+ */
+ 
+.sticklr, 
+.sticklr * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: Helvetica, Ubuntu, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ccc;
+    vertical-align: baseline;
+}
+
+.sticklr, 
+.sticklr > li > ul {
+    list-style-type: none;
+}
+
+.sticklr {
+    position: fixed;
+    top: 60% !important;
+    left: 0;
+    width: 40px !important;
+    overflow: visible;
+    z-index: 90;
+	
+	/* all ie css fallback */
+	top: 0\9;
+	/* <ie7 css fallback */
+	background-color: #000 !ie;
+}
+
+.sticklr-custom {padding:11px 15px !important;}
+.sticklr-custom a {color:#fff;}
+.sticklr-custom a:hover {color:#ce1141;}
+
+.sticklr-right {
+    left: auto;
+    right: 0;
+}
+
+.sticklr > li {
+    position: relative;
+	margin:0 0 1px 1px;
+}
+
+.sticklr > li > a {
+    display: block;
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    background-color: #000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+
+.sticklr > li {
+	height: 40px !important;
+}
+
+.sticklr > li:first-child {
+
+}
+
+.sticklr > li:last-child {
+
+}
+
+.sticklr > li > a:hover {
+    color:#ce1141;
+}
+
+.sticklr > li > ul {
+    display: none;
+    position: absolute;
+    left:0 !important;
+    top: -2px;
+    margin-left:41px !important;
+    width: 160px;
+    overflow: hidden;
+    background-color: #000;
+    z-index: 95;
+
+    /* ie css fallback */
+	position: static\9;
+	margin-top: -25px\9;
+	margin-bottom: 25px\9;
+	margin-left: 25px\9;
+	float: left\9;
+	/* <ie7 css fallback */
+	background-color: #000 !ie;
+}
+
+.sticklr-right > li > ul {
+    left: auto;
+    right: 25px;
+}
+
+.sticklr > li > ul:nth-child(3) {
+    left: 206px; /* (160px * 1) + 26px */
+}
+
+.sticklr > li > ul:nth-child(4) {
+    left: 387px; /* (160px * 2) + 27px */
+}
+
+.sticklr > li > ul:nth-child(5) {
+    left: 568px; /* (160px * 3) + 28px */
+}
+
+.sticklr > li > ul:nth-child(6) {
+    left: 749px; /* (160px * 4) + 29px */
+}
+
+.sticklr > li > ul:nth-child(7) {
+    left: 930px; /* (160px * 5) + 30px */
+}
+
+.sticklr-right > li > ul:nth-child(3) {
+    left: auto;
+    right: 206px;
+}
+
+.sticklr-right > li > ul:nth-child(4) {
+    left: auto;
+    right: 387px;
+}
+
+.sticklr-right > li > ul:nth-child(5) {
+    left: auto;
+    right: 568px;
+}
+
+.sticklr-right > li > ul:nth-child(6) {
+    left: auto;
+    right: 749px;
+}
+
+.sticklr-right > li > ul:nth-child(7) {
+    left: auto;
+    right: 930px;
+}
+
+.sticklr > li:hover > ul {
+    display: block;
+}
+
+.sticklr.sticklr-js > li:hover > ul {
+    display: none;
+}
+
+.sticklr > li > ul > li {
+    min-width: 160px;
+
+    /* <ie7 css fallback */
+	border: none !ie;
+}
+
+.sticklr > li > ul > li:first-child {
+}
+
+.sticklr > li > ul > li:last-child {
+}
+
+.sticklr > li > ul > li:hover {
+}
+
+.sticklr > li > ul > li > a {
+    display: block;
+    padding: 11px 15px 0 15px;
+    background-color: #000;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    color: #ccc;
+    min-height: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    color:#fff;
+}
+
+.sticklr > li > ul > li:last-child > a {
+   padding-bottom:11px;
+}
+
+.sticklr > li > ul > li > a:hover {
+    color:#ce1141;
+}
+
+.sticklr > li > ul > li.sticklr-title {
+    background-color: #000;
+    background-image: -webkit-linear-gradient(#383838, #111);
+    background-image: -moz-linear-gradient(#383838, #111);
+    background-image: -o-linear-gradient(#383838, #111);
+}
+
+.sticklr > li > ul > li.sticklr-title > a {
+    padding-left: 10px;
+    background-color: #000;
+    cursor: default;
+    font-weight: bold;
+}
+
+.sticklr > li > ul > li.sticklr-title > a:hover {
+}
+
+.sticklr > li > ul > li > table {
+	border-collapse:collapse;
+	border-spacing: 0;
+}
+
+.sticklr > li > ul > li > form {
+    padding: 8px 10px;
+}
+
+.sticklr > li > ul > li input,
+.sticklr > li > ul > li select, 
+.sticklr > li > ul > li textarea,
+.sticklr > li > ul > li button  {
+    background: #555;
+    color: #ccc;
+    margin: 4px 0;
+    padding: 4px;
+}
+
+.sticklr > li > ul > li input[type="text"],
+.sticklr > li > ul > li input[type="password"],
+.sticklr > li > ul > li textarea {
+    min-width: 150px;
+    width: auto;
+}
+
+.sticklr > li > ul > li input[type="submit"] {
+    background-color: #3f3f3f;
+}
+
+.sticklr-arrow {
+    position: absolute;
+    left: 25px;
+    top: 8px;
+    width: 0;
+    height: 0;
+display:none;
+}
+
+.sticklr-right .sticklr-arrow {
+    left: auto;
+    right: 25px;
+}
+
+/* icons */
+
+.icon-zoom {
+    background-image: url('img/pc.de-16/zoom.png.html');
+}
+
+.icon-tag {
+    background-image: url('img/pc.de-16/tag.png.html');
+}
+
+.icon-sitemap {
+    background-image: url('img/pc.de-16/sitemap.png.html');
+}
+
+.icon-twitter {
+    background-image: url('img/pc.de-16/twitter.png.html');
+}
+
+.icon-user {
+    background-image: url('img/pc.de-16/user.png.html');
+}
+
+.icon-addthis {
+    background-image: url('img/icondock-16/addthis.png.html');
+}
+
+.icon-wordpress {
+    background-image: url('img/icondock-16/wordpress-2.png.html');
+}
+
+.icon-facebook {
+    background-image: url('img/icondock-16/facebook.png.html');
+}
+
+.icon-google {
+    background-image: url('img/icondock-16/google.png.html');
+}
